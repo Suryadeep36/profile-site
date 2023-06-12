@@ -1,0 +1,161 @@
+html, body{
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+.gradient-background {
+    background: linear-gradient(300deg, #00bfff, #ff4c68, #ef8172);
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+  }
+  
+  @keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+.intro{
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    background-color: #AEE2FF;
+    justify-content: space-between;
+}
+.intro > h1{ 
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+    font-size: 80px;
+    color: #B799FF;
+    margin-bottom: 30px;
+}
+.intro > h2{
+    text-align: center;
+    font-family: 'Amatic SC', cursive;
+    font-size: 40px;
+    color: #B799FF;
+    margin: 0;
+}
+#Sunflowers{
+    height: 300px;
+    width: 300px;
+    align-self: center;
+    border: dotted 5px #B799FF;
+}
+.cloud{
+    height: 48px;
+    width: 150px;
+    position: relative;
+}
+.second{
+    left: 100px;
+}
+.first{ 
+    align-self: self-end;
+    right: 100px;
+}
+.main{
+    height: auto;
+    width: 100%;
+    background-color: #EEF1FF;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+#profile{
+    height: 200px;
+    width: 200px;
+    border-radius: 350px;
+    align-self: center;
+    margin: 50px;
+}
+.main>h2{
+    text-align: center;
+    color: #AAC4FF;
+}
+.main>p{
+    text-align: center;
+    color: #AAC4FF;
+    position: relative;
+    bottom: 50px;
+    font-size: 20px;
+}
+#student{
+    color:  greenyellow;
+    font-weight: 900;
+}
+.profile-description{
+    color: #AAC4FF;
+    font-size: 20px;
+    width: 300px;
+    align-self: center;
+    padding: 0;
+    margin: 0;
+}
+#hobbies{
+    text-align: center;
+    margin-bottom: 100px;
+    margin-top: 100px;
+    color: #00bfff;
+}
+.row featurette{
+    align-items: center;
+}
+.image{
+    display: flex;
+    justify-content: end;
+
+    width: 300px;
+    margin-left: 50px;
+}
+.featurette-heading{
+    color: #B799FF;
+}
+.lead{
+    color: purple;
+}
+.col-md-8{
+    padding-right: 0px;
+}
+.row{
+    height: auto;
+    width: 100%;
+}
+#contact{
+    text-align: center;
+    margin-bottom: 100px;
+    margin-top: 100px;
+}
+.btn{
+    width: 120px;
+    align-self: center;
+    margin-bottom: 50px;
+}
+#email{
+    text-decoration: none;
+    color: white;
+}
+#emailname{
+    margin-bottom: 0;
+    color: #B799FF;
+}
+#contact{
+    color: #00bfff;
+}
+@media (max-width: 1070px){
+    .image{
+        width: 100%;
+        justify-content: center;
+        margin: 0;
+    }
+    .col-md-8{
+        width: 100%;
+        text-align: center;
+    }
+}
